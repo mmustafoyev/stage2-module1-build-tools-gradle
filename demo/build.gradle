@@ -1,4 +1,6 @@
-//add everything here
+dependencies {
+    implementation project(path: ':utils')
+}//add everything here
 
 test {
     useJUnitPlatform()
