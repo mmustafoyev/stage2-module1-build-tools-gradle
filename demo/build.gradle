@@ -1,3 +1,10 @@
+plugins{
+    id 'java'
+}
+repositories{
+    mavenCentral()
+}
+
 dependencies {
     implementation project(path: ':utils')
 }//add everything here
